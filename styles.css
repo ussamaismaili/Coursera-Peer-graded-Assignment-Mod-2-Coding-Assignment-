@@ -1,0 +1,51 @@
+body{
+    min-height: 5000px;
+
+}
+
+h1{
+    color: blueviolet
+    ;text-align: center;
+}
+
+li {
+  list-style: none;
+    display: inline-block;
+    position:relative;
+   
+   
+
+}
+
+a:link ,a:visited  {
+    text-decoration: none;
+    background-color: blueviolet;
+    color: white;
+    display: block;
+    width: 100px;
+    text-align: center;
+    border: white 1px;
+    margin-bottom: 1px;
+}
+
+a:hover ,a:active {
+    background-color: black;
+    
+}
+nav{
+   width: 308px;
+    display: inline-block;
+    position: relative;
+    left: 1180px;
+    bottom: 150px;
+    padding: 0px 0px 0px 0px;
+    padding-inline-start: 0px ;
+    
+}
+ul{
+    padding-inline-start: 0px ;
+
+}
+.head{
+    font-size: 130%;
+}
