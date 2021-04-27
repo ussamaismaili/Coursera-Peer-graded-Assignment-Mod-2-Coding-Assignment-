@@ -12,9 +12,6 @@ li {
   list-style: none;
     display: inline-block;
     position:relative;
-   
-   
-
 }
 
 a:link ,a:visited  {
@@ -38,8 +35,7 @@ nav{
     position: relative;
     left: 1180px;
     bottom: 150px;
-    padding: 0px 0px 0px 0px;
-    padding-inline-start: 0px ;
+    padding: 0px 
     
 }
 ul{
