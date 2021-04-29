@@ -1,47 +1,187 @@
+*{
+    box-sizing: border-box;
+}
 body{
-    min-height: 5000px;
-
+    margin: 10px;
+    font-family: cursive;
 }
 
 h1{
-    color: blueviolet
-    ;text-align: center;
-}
-
-li {
-  list-style: none;
-    display: inline-block;
-    position:relative;
-}
-
-a:link ,a:visited  {
-    text-decoration: none;
-    background-color: blueviolet;
-    color: white;
-    display: block;
-    width: 100px;
     text-align: center;
-    border: white 1px;
-    margin-bottom: 1px;
+    color: rgb(226, 80, 43);
+    margin-bottom: 60px;
+    font-size: 40px;
 }
 
-a:hover ,a:active {
-    background-color: black;
+div{
+
+    border: black 1px
     
 }
-nav{
-   width: 308px;
-    display: inline-block;
-    position: relative;
-    left: 1180px;
-    bottom: 150px;
-    padding: 0px 
+
+div.titles{
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: grey;
+    border: black solid;
+    text-align: center;
+    font-size : 25px ;
+    font-weight: bold;
+
     
+    float: right;
 }
-ul{
-    padding-inline-start: 0px ;
+
+p{
+    background-color: lightgray;
+    margin: 0px;
+    padding: 48px 15px 15px 15px;
+    border: solid black;
+    font-size: 18px;
+    font-weight: 800;
+
+
 
 }
-.head{
-    font-size: 130%;
+
+section{
+    padding: 10px;
+    border: black 1px
+}
+
+div#title-1{
+    background-color:lightgreen;
+}
+div#title-2{
+    background-color :burlywood;
+}
+div#title-3{
+    background-color:indianred;
+}
+    
+/**** larger devices only ****/
+
+@media (min-width:992px){
+    .col-lg-1,   
+    .col-lg-2,   
+    .col-lg-3,   
+    .col-lg-4,   
+    .col-lg-5,   
+    .col-lg-6,   
+    .col-lg-7,   
+    .col-lg-8,   
+    .col-lg-9,   
+    .col-lg-10,   
+    .col-lg-11,   
+    .col-lg-12 {
+        float: left;
+        border: 1px ;
+
+    }   
+
+
+    .col-lg-1 {
+        width: 8.33%;
+    }
+
+    .col-lg-2{width: 16.66%;
+
+    }   
+    .col-lg-3{
+        width: 25%;
+
+    }
+    .col-lg-4{
+        width: 33%;
+        
+    }
+    .col-lg-5{
+        width: 41.66%;
+    }  
+    .col-lg-6 {
+        width: 50%
+    }  
+    .col-lg-7{
+        width: 58.33%
+    }   
+    .col-lg-8{
+        width: 66.66%
+    }   
+    .col-lg-9{
+        width: 74.99%
+    }   
+    .col-lg-10{
+        width:83.66%
+    }   
+    .col-lg-11{
+        width: 91.66%
+        }   
+    .col-lg-12{
+        width: 100%
+    } 
+}
+
+/* for meduim devices */
+
+@media (min-width:768px) and (max-width:991px){
+    .col-md-1,   
+    .col-md-2,   
+    .col-md-3,   
+    .col-md-4,   
+    .col-md-5,   
+    .col-md-6,   
+    .col-md-7,   
+    .col-md-8,   
+    .col-md-9,   
+    .col-md-10,   
+    .col-md-11,   
+    .col-md-12 {
+        float: left;
+        border: 1px ;
+
+    }   
+
+
+    .col-md-1 {
+        width: 8.33%;
+    }
+
+    .col-md-2{width: 16.66%;
+
+    }   
+    .col-md-3 {
+        width: 25%;
+        
+        
+
+    }
+    .col-md-4{
+        width: 33%;
+        
+    }
+    .col-md-5{
+        width: 41.66%;
+    }  
+    .col-md-6 {
+        width: 50%
+    }  
+    .col-md-7{
+        width: 58.33%
+    }   
+    .col-md-8{
+        width: 66.66%
+    }   
+    .col-md-9{
+        width: 74.99%
+    }   
+    .col-md-10{
+        width:83.66%
+    }   
+    .col-md-11{
+        width: 91.66%
+        }   
+    .col-md-12{
+        width: 100%
+    } 
 }
