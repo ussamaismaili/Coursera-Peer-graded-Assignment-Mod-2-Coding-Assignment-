@@ -43,6 +43,24 @@ h2{
     color: black;
     
 } 
+
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: black;
+}
+
+.navbar-default .navbar-toggle{
+    border-color:white;
+}
+
+.navbar-toggle {
+    background-color: white;
+}
+.navbar-toggle:hover{
+    background-color: black;
+
+}
+
+
 /* end navigation styling */
 
 /* start main content */
