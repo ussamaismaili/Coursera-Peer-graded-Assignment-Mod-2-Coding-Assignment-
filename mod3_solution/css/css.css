@@ -19,6 +19,9 @@ body{
     font-weight: bold;
 } 
 
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
 h2{
     font-weight: bold;
 }
